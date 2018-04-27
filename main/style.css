@@ -1,0 +1,92 @@
+body{
+  box-sizing: border-box;
+  font-size: 1em;
+  margin: 0;
+}
+header{
+  background-color: green;
+  width: 100%;
+  padding: 1em;
+}
+header> *{
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+header > h1{
+  width: 2%;
+  padding-right: 1em;
+}
+header> navbar{
+  width: 50%;
+  height: 5vh;
+  left: 10%;
+}
+header navbar a:nth-child(3) *{
+    width: 20%;
+    text-align: inline-block;
+}
+header navbar a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+header navbar a:nth-child(3) img{
+    width: 30%;
+    max-height: 5vh;
+    border-radius:50%;
+    position: relative;
+    top: 1em;
+    margin: 0 0.5em;
+}
+form{
+    background-color: white;
+    text-align: center;
+}
+form input{
+    width: 80%;
+    height: 5vh;
+
+}
+form > *{
+    border: none;
+    background-color: white;
+}
+main section.col{
+  margin: 1em;
+  float: left;
+  width: 55vh;
+  margin: 1px;
+  /*max-width: 15%;
+  min-height: fit-content;
+  margin: 0;*/
+}
+.column > .pin{
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background-color:white;
+    border-radius: 5%;
+    margin: 1em;
+}
+.pin img{
+    max-width:100%;
+    height: auto;
+    border-radius: 10%;
+}
+img:hover{
+    opacity: 0.4;
+}
+.pin-title{
+    position: relative;
+    overflow: auto;
+    padding: 0.5em;
+    color: rgba(0, 0, 0, 0.5);
+}
+header div img{
+  width: 5%;
+}
+main{
+  width: 100%;
+
+}
